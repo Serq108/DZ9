@@ -1,12 +1,143 @@
-.sidebar-nav {
-    margin-top: 40px;
-    margin-right: 40px;
-    padding-right: 40px;
-    padding-left: 50px;
-    list-style: none;
-    font-size: 20px
-    }
-html {
-  font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
-  font-family: 'Open Sans', sans-serif;
+.back {
+/*
+  position: relative;
+*/
+  width: 100%;
+  height: 920px;
+  margin: 0;
+  background-color: #333;
+  
 }
+
+.parent {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.company-logo {
+  position: absolute;
+  width: 25%;
+  left: 0%;
+  right: 75%;
+  text-align: center;
+}
+
+.login {
+  position: absolute;
+  width: 15%;
+  left: 85%;
+  right: 0%;
+  text-align: center;
+}
+
+.course {
+  position: absolute;
+  width: 15%;
+  left: 25%;
+  right: 40%;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  text-align: center;
+  color: #3b6484;
+}
+
+.inner-text{
+ padding-top: 5%; 
+}
+
+.course-category {
+  position: absolute;
+  width: 100%;
+  top: 275px;
+  text-align: center;
+  color: #3b6484;
+}
+
+ul.hr {
+    margin-top: 5px; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+/*
+    border: 1px solid #000;  Рамка вокруг текста 
+*/
+    padding: 3px; /* Поля вокруг текста */
+   }
+
+.news {
+  position: absolute;
+  width: 100%;
+  top: 325px;
+  text-align: center;
+  color: #3b6484;
+}
+
+.about {
+  position: absolute;
+  width: 100%;
+  top: 825px;
+  text-align: center;
+  color: #3b6484;
+}
+
+.bottom {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+
+}
+/* look and feel */
+.parent {
+  height: 900px;
+  background-color: #D0F9DE;
+}
+.company-logo {
+  height: 25px;
+  background-color: #BFE1DA;
+}
+.login {
+  height: 25px;
+  background-color: #BFE1DA;
+}
+
+.course {
+  height: 25px;
+  background-color: #BFE1DA;
+}
+
+.title {
+  height: 250px;
+  background-color: #D0F9DE;
+}
+
+.course-category {
+  height: 50px;
+  background-color: #BFE1DA;
+}
+.news {
+  height: 400px;
+  background-color: #D0F9DE;
+}
+
+.about {
+  height: 50px;
+  background-color: #BFE1DA;
+}
+
+.bottom {
+  height: 25px;
+  background-color: #D0F9DE;  
+
+}
+
